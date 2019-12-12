@@ -1,0 +1,21 @@
+<html>
+<head>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+</head>
+<body>
+    <h1 id = "titulo" style = "background-color:bisque" style="background-size: 0in" > INÍCIO </h1>
+    <div style="background-image: url(https://www.infowester.com/img_art/form_img/jpegcomp1.jpg)"
+    <h2> OLÁ! </h2>
+    <p> Seja bem vindo! </p>
+    <button onclick = "mudarTitulo()" id = "btn" type="button" class="btn btn-success">ÉDIO</button>
+
+    <script>
+        var btn = document.getElementById('btn')
+        var titulo = document.getElementById('titulo')
+
+        function mudarTitulo(){
+            titulo.innerHTML = "BOTÃO APERTADO"
+        }
+    </script>
+</body>
+</html>
