@@ -2,6 +2,6 @@ Comandos git <=> Heroku :
 
 git add .
 
-git commit -m "primeiro commit"
+git commit -m "comentário"
 
 git push heroku master
